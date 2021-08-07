@@ -69,7 +69,7 @@ services:
       - 9798
     ports:
       - 9798:9798
-    image: miguelndecarvalho/speedtest-exporter
+    image: ccc13481/librespeed-exporter
     restart: always
     networks:
       - back-tier
